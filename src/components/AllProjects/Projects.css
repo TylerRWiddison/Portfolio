@@ -1,0 +1,24 @@
+.nav {
+    overflow: hidden;
+    font-size: x-large;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: purple;
+    min-width: 270px;
+}
+
+.project-listing {
+    margin-top: 4rem;
+}
+
+@media (max-width: 669px) {
+    .project-header {
+        margin-top: 2rem !important;
+    }
+
+    .project-listing {
+        margin-top: 2rem;
+    }
+}
