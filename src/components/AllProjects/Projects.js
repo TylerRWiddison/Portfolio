@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 import Header from "../Main/Header";
 import ProjectItem from "../Main/ProjectItem";
@@ -12,7 +13,7 @@ const Projects = () => {
         BACK TO MAIN PAGE
       </Link>
       <div id="content-w-sidebar">
-        <header id="sidebar" className='project-header'>
+        <header id="sidebar" className="project-header">
           <Header />
         </header>
         <main id="main" className="project-listing">
@@ -31,7 +32,7 @@ const Projects = () => {
               preview="imageShare"
               alt="Site preview"
               description="Website built with the MERN stack. View and share images and their location with other users. Since it is hosted on Heroku with a free account, the uploaded images are cycled and will not be persistant.
-          To sign up include '@' and '.com' in your email address."
+              To sign up include '@' and '.com' in your email address."
               site="https://imagesharemern-90cad.web.app/"
               viewCode="https://github.com/TylerRWiddison/ImageShareAppMERN"
             />
@@ -41,37 +42,38 @@ const Projects = () => {
               title="Workout Tracker (In Progess)"
               preview="workoutTracker"
               alt="Preview of website"
-              description="This site allows you to create workout routines and programs. After you have created your program you can track your workouts. Save time planning workouts by creating reusable workout routine that you can easily add to your fitness routine. "
+              description="This site allows you to create workout routines and programs.  After you have created your program you can track your workouts. The exercise search uses the wger API to populate the results list."
               site="https://widdi-workout-tracker.firebaseapp.com/"
               viewCode="https://github.com/TylerRWiddison/body-building-app/tree/master/Frontend"
             />
             <ProjectItem
-              title="four"
-              preview="onlineShop"
+              title="Drum app"
+              preview="drums"
               alt="Site preview"
-              description="fourth site"
+              description="Use your keyboard to play the drums.  This site uses HTML, CSS and Javascript to play 9 different drums sounds when you click the listed keys."
               site=""
               viewCode=""
             />
           </div>
           <div className="project-grouping">
             <ProjectItem
-              title="five"
-              preview="imageShare"
+              title="Speech Recognition"
+              preview="speech"
               alt="Site preview"
-              description="fifth site"
+              description="This site requires a microphone. Using SpeechRecognition or webkitSpeechRecognition this site listens to your voice and fills out a page live.  When you pause a new paragraph will be created the next time you start to talk."
               site=""
               viewCode=""
             />
             <ProjectItem
-              title="six"
-              preview="workoutTracker"
+              title="Whack A Mole Game"
+              preview="mole"
               alt="Site preview"
-              description="sixth site"
+              description="Play Whack A Mole. Created using Javascript. 3 different levels available. Whack as many as you can within 30 seconds and beat your high score. "
               site=""
               viewCode=""
             />
           </div>
+          <Footer />
         </main>
       </div>
     </div>

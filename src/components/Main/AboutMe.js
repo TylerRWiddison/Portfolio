@@ -9,8 +9,7 @@ const AboutMe = () => {
       <p>
         I am a Web Developer specializing in creating frontend applications with
         ReactJs, Javascript, HTML5 and CSS3. I have experience creating and
-        working with APIs and databases. Let me help make your site appeal to
-        your audience.
+        working with APIs and databases. My goal is to provide your users with a convenient and intuitive frontend experience. 
       </p>
     </section>
   );

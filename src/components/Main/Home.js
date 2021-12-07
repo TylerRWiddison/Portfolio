@@ -2,6 +2,7 @@ import Header from "./Header";
 import AboutMe from "./AboutMe";
 import RecentProjects from "./RecentProjects";
 import Languages from "./Languages";
+import Footer from "../Footer/Footer";
 
 import './Home.css';
 
@@ -17,6 +18,7 @@ const Home = () => {
         <RecentProjects />
         <hr />
         <Languages />
+        <Footer />
       </main>
     </div>
   );

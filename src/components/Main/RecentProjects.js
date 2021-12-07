@@ -33,33 +33,33 @@ const RecentProjects = () => {
           title="Workout Tracker (In Progess)"
           preview="workoutTracker"
           alt="Preview of website"
-          description="This site allows you to create workout routines and programs. After you have created your program you can track your workouts. Save time planning workouts by creating reusable workout routine that you can easily add to your fitness routine. "
+          description="This site allows you to create workout routines and programs.  After you have created your program you can track your workouts. The exercise search uses the wger API to populate the results list."
           site="https://widdi-workout-tracker.firebaseapp.com/"
           viewCode="https://github.com/TylerRWiddison/body-building-app/tree/master/Frontend"
         />
         <ProjectItem
-          title="four"
-          preview="onlineShop"
+          title="Drum App"
+          preview="drums"
           alt="Site preview"
-          description="fourth site"
+          description="Use your keyboard to play the drums.  This site uses HTML, CSS and Javascript to play 9 different drums sounds when you click the listed keys."
           site=""
           viewCode=""
         />
       </div>
       <div className="project-grouping">
         <ProjectItem
-          title="five"
-          preview="imageShare"
+          title="Speech Recognition"
+          preview="speech"
           alt="Site preview"
-          description="fifth site"
+          description="This site requires a microphone. Using SpeechRecognition or webkitSpeechRecognition this site listens to your voice and fills out a page live.  When you pause a new paragraph will be created the next time you start to talk."
           site=""
           viewCode=""
         />
         <ProjectItem
-          title="six"
-          preview="workoutTracker"
+          title="Whack A Mole Game"
+          preview="mole"
           alt="Site preview"
-          description="sixth site"
+          description="Play Whack A Mole. Created using Javascript. 3 different levels available. Whack as many as you can within 30 seconds and beat your high score. "
           site=""
           viewCode=""
         />

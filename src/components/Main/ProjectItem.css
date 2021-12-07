@@ -4,7 +4,7 @@ a {
 }
 
 .card {
-    border-radius: 5%;
+  border-radius: 5%;
   display: flex;
   flex-flow: column;
   background-color: rgba(0, 0, 0, 0.438);
@@ -69,7 +69,7 @@ a {
     }
 
     .card {
-        max-width: 100%;
+      max-width: 100%;
     }
   }
 }
