@@ -6,6 +6,7 @@ import "./RecentProjects.css";
 
 const RecentProjects = () => {
   return (
+
     <section id="two">
       <h1 className="header">Recent Work</h1>
       <div className="project-grouping">
