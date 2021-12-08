@@ -42,8 +42,8 @@ const RecentProjects = () => {
           preview="drums"
           alt="Site preview"
           description="Use your keyboard to play the drums.  This site uses HTML, CSS and Javascript to play 9 different drums sounds when you click the listed keys."
-          site=""
-          viewCode=""
+          site="https://drumsjavascript.web.app"
+          viewCode="https://github.com/TylerRWiddison/javascriptDrums"
         />
       </div>
       <div className="project-grouping">
