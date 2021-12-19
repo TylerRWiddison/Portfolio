@@ -13,9 +13,9 @@ const Home = () => {
         <Header />
       </header>
       <main id="main">
-        <AboutMe />
-        <hr />
         <RecentProjects />
+        <hr />
+        <AboutMe />
         <hr />
         <Languages />
         <Footer />

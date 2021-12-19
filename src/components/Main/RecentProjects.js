@@ -60,8 +60,8 @@ const RecentProjects = () => {
           preview="mole"
           alt="Site preview"
           description="Play Whack A Mole. Created using Javascript. 3 different levels available. Whack as many as you can within 30 seconds and beat your high score. "
-          site=""
-          viewCode=""
+          site="https://whackamolejs.web.app"
+          viewCode="https://github.com/TylerRWiddison/WhackaMole"
         />
       </div>
       <div className="button-container">

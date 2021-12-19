@@ -115,15 +115,15 @@ ul {
 }
 
 hr {
-    margin: 1rem 0;
-    color: purple;
-    width: 90%;
+  margin: 1rem 0;
+  color: purple;
+  width: 90%;
 }
 
 #content-w-sidebar {
   background-color: #272833;
   background-image: url(../../images/background1.jpg);
-  display: flex; 
+  display: flex;
   background-attachment: fixed;
   box-shadow: inset 0 0 0 1000px rgba(39, 40, 51, 0.8);
   line-height: 1.6;
@@ -138,31 +138,41 @@ hr {
   }
 
   #content-w-sidebar > #sidebar {
-    flex: 1 1 33%;
+    flex: 1 1 22%;
     align-content: center;
   }
 
   #content-w-sidebar > #main {
-    flex: 1 1 67%;
+    padding-left: 4rem;
+    flex: 1 1 78%;
     height: 100vh;
     overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
+
+  /* hide the scrollbar in Chrome, Safari and Opera */
+  #content-w-sidebar > main::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* hide the scrollbar in IE, Edge and Firefox */
 }
 
 @media (max-width: 669px) {
-    #content-w-sidebar {
-        flex-direction: column;
-        min-height: 100vh;
-        min-width: 365px;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+  #content-w-sidebar {
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 365px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-    #content-w-sidebar > #sidebar {
-        margin: 1rem 0;
-    }
+  #content-w-sidebar > #sidebar {
+    margin: 1rem 0;
+  }
 
-    hr {
-        margin: 1rem auto;
-    }
+  hr {
+    margin: 1rem auto;
+  }
 }

@@ -14,7 +14,7 @@ import "./Languages.css";
 const Languages = () => {
   return (
     <Fragment>
-      <h1 className='language-header'>Languages</h1>
+      <h1 className='language-header'>Languages and Tools</h1>
       <div className="language-container color">
         <section>
           <span>
