@@ -9,14 +9,13 @@ const RecentProjects = () => {
     <section id="two">
       <h1 className="header">Recent Work</h1>
       <div className="project-grouping">
-        <ProjectItem
-          title="Online Shop"
-          preview="onlineShop"
+      <ProjectItem
+          title="Webflow Bike Shop"
+          preview="webflowBike"
           alt="Site preview"
-          description="Created with NodeJs, express, MongoDb and ejs. With this site you are able to add items into a cart and checkout. The checkout service is provided with Stripe. Stripe is set to demo so no money will actually be transferred. After checkout a PDF is created as your invoice.
-          To sign up include '@' and '.com' in your email address. "
-          site="https://node-dummy-shop.herokuapp.com/"
-          viewCode="https://github.com/TylerRWiddison/OnlineShopDemo"
+          description="E-commerce site created with Webflow. Sorts product by category, adds items to a cart, and lets you sign up for a newsletter. Checkout has been disabled for demo."
+          site="https://treak-bike-demo.webflow.io/"
+          viewCode="deactivated"
         />
         <ProjectItem
           title="Where's That?"
@@ -30,12 +29,12 @@ const RecentProjects = () => {
       </div>
       <div className="project-grouping">
         <ProjectItem
-          title="Workout Tracker (In Progess)"
-          preview="workoutTracker"
+          title="Logan Travel Blog"
+          preview="travelBlog"
           alt="Preview of website"
-          description="This site allows you to create workout routines and programs.  After you have created your program you can track your workouts. The exercise search uses the wger API to populate the results list."
-          site="https://widdi-workout-tracker.firebaseapp.com/"
-          viewCode="https://github.com/TylerRWiddison/body-building-app/tree/master/Frontend"
+          description="A simple travel blog for Logan, Utah. Made with Wordpress."
+          site="https://tylerwiddison.com"
+          viewCode="deactivated"
         />
         <ProjectItem
           title="Drum App"
@@ -48,12 +47,13 @@ const RecentProjects = () => {
       </div>
       <div className="project-grouping">
         <ProjectItem
-          title="Speech Recognition"
-          preview="speech"
+          title="MERN Online Shop"
+          preview="onlineShop"
           alt="Site preview"
-          description="This site requires a microphone. Using SpeechRecognition or webkitSpeechRecognition this site listens to your voice and fills out a page live.  When you pause a new paragraph will be created the next time you start to talk."
-          site=""
-          viewCode=""
+          description="Created with NodeJs, express, MongoDb and ejs. With this site you are able to add items into a cart and checkout. The checkout service is provided with Stripe. Stripe is set to demo so no money will actually be transferred. After checkout a PDF is created as your invoice.
+          To sign up include '@' and '.com' in your email address. "
+          site="https://node-dummy-shop.herokuapp.com/"
+          viewCode="https://github.com/TylerRWiddison/OnlineShopDemo"
         />
         <ProjectItem
           title="Whack A Mole Game"
@@ -64,9 +64,9 @@ const RecentProjects = () => {
           viewCode="https://github.com/TylerRWiddison/WhackaMole"
         />
       </div>
-      <div className="button-container">
+      {/* <div className="button-container">
         <Link className="button-main" to='/projects'>Full Portfolio</Link>
-      </div>
+      </div> */}
     </section>
   );
 };

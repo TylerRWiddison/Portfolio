@@ -3,6 +3,7 @@ import AboutMe from "./AboutMe";
 import RecentProjects from "./RecentProjects";
 import Languages from "./Languages";
 import Footer from "../Footer/Footer";
+import Contact from "./Contact";
 
 import './Home.css';
 
@@ -18,6 +19,8 @@ const Home = () => {
         <AboutMe />
         <hr />
         <Languages />
+        <hr />
+        <Contact />
         <Footer />
       </main>
     </div>
