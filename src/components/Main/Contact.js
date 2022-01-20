@@ -36,7 +36,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="three">
+    <section id="three">
       <header className="header">
         <h2>Contact Me</h2>
       </header>
@@ -68,7 +68,7 @@ const Contact = () => {
           Thank you for your message, we will be in touch in no time!
         </span>
       </form>
-    </div>
+    </section>
   );
 };
 

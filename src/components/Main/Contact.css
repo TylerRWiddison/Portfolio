@@ -1,3 +1,7 @@
+#three {
+  width: 90%;
+}
+
 #contact-form {
   display: flex;
   flex-direction: column;
@@ -11,7 +15,6 @@
 .input-message {
   width: 100%;
   border: 0;
-  padding: 10px 20px;
   box-sizing: border-box;
   margin-bottom: 15px;
 }
@@ -44,4 +47,11 @@
   text-decoration: underline;
   text-decoration-color: purple;
   padding: 0 0 1rem;
+}
+
+@media (max-width: 669px) {
+  #three {
+      margin: 0 auto;
+      padding: 1rem;
+  }
 }
